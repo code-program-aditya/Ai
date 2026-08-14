@@ -1,0 +1,7 @@
+t6=(1,2,3,4,5)
+print("t6=",t6)
+list1=list(t6)
+print("list1=",list1)
+list1.remove(3)
+t6=tuple(list1)
+print("t6=",t6)
