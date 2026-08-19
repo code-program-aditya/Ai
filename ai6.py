@@ -1,6 +1,4 @@
 import heapq
-from os import path
-from platform import node
 graph = {
     'A':['B', 'C'],
     'B':['D', 'E'],
