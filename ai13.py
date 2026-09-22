@@ -51,7 +51,7 @@ print(classification_report(y_test, y_pred))
 new_patient = pd.DataFrame(
     [[6, 148, 72, 35, 0, 33.6, 0.627, 50]],
     columns=X.columns
-) 
+)
 new_patient_scaled = scaler.transform(new_patient)
 
 prediction = model.predict(new_patient_scaled)
